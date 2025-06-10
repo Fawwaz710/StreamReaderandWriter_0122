@@ -26,5 +26,6 @@ int main() {
     }
     //selesai dalam menulis tutup file nya 
     outfile.close();
+    //membuka file dalam mode membaca
     
 }

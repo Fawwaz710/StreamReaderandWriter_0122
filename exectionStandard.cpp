@@ -14,9 +14,14 @@ int main () {
         cout <<data.at(5)<<endl;
         //memanggil array elemen ke 5
     }
-    catch(const std::exception& e)
+    catch(exception& e)
+    //
     {
-        std::cerr << e.what() << '\n';
+        cout << e.what() << endl;
+        //
     }
+    cout << "Baris Program Yang terakhir" << endl;
+    //
+    return 0;
     
 }
