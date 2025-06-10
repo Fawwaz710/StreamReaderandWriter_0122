@@ -15,13 +15,13 @@ int main () {
         //memanggil array elemen ke 5
     }
     catch(exception& e)
-    //
+    //penangkap mengunakan obyek exception
     {
         cout << e.what() << endl;
-        //
+        //akan dieksekusi karena array data hanya memiliki 3 elemen
     }
     cout << "Baris Program Yang terakhir" << endl;
-    //
+    //penanda 2: bahwa program berjalan tanpa  berhenti meskipun terjadi kesalahan
     return 0;
     
 }
