@@ -21,5 +21,10 @@ int main() {
         getline(cin, baris);
         //loop akan berhenti ketika anda memasukan q
         if (baris == "q") break;
-       
+        // menulis dan memasukkan nilai dari "baris" kedalam file 
+        outfile << baris <<endl;
+    }
+    //selesai dalam menulis tutup file nya 
+    outfile.close();
+    
 }
