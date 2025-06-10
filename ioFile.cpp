@@ -38,9 +38,11 @@ int main() {
             cout << baris << '\n';
         }
         //tutup file tersebut setelah selesai
+        infile.close();
         
     }
-    
+    else cout << "Unable to open file ";
+    return 0;
 
     
 }
